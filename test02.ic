@@ -1,0 +1,8 @@
+input x from A;
+input y from B;
+v := x ? y;
+if v = x then (
+  output x - y to A
+) else (
+  output y - x to A
+)

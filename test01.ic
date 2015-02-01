@@ -1,0 +1,7 @@
+input x from A;
+input y from B;
+if x = y then (
+  output 1 to a
+) else (
+  output 0 to a
+)

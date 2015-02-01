@@ -1,7 +1,10 @@
 import System.Environment
- 
--- | 'main' runs the main program
+
+import Parse
+import Pretty
+
 main :: IO ()
-main = getArgs >>= print . haqify . head
- 
-haqify s = "Haq! " ++ s
+main =
+  do args <- getArgs
+     cmd <- parseFile $ head args
+     prettyPrint cmd
