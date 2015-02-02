@@ -1,7 +1,7 @@
 import System.Environment
 
-import Parse
-import Pretty
+import Imp.Parse
+import Imp.Pretty
 
 main :: IO ()
 main =

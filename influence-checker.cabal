@@ -47,11 +47,12 @@ cabal-version:       >=1.10
 
 
 executable influence-checker
+  Hs-Source-Dirs:      src
   -- .hs or .lhs file containing the Main module.
   main-is:             Main.hs
   
   -- Modules included in this executable, other than Main.
-  other-modules:       AST, Parse, Pretty
+  other-modules:       Imp.AST, Imp.Parse, Imp.Pretty
   
   -- LANGUAGE extensions used by modules in this package.
   -- other-extensions:    

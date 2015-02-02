@@ -1,6 +1,6 @@
-module Pretty (prettyPrint) where
+module Imp.Pretty (prettyPrint) where
 
-import AST
+import Imp.AST
 
 import Control.Monad
 import Control.Monad.Reader

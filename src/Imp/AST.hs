@@ -1,4 +1,4 @@
-module AST (BExpr(..), BBinOp(..), RBinOp(..), AExpr(..), ABinOp(..), Cmd(..)) where
+module Imp.AST (BExpr(..), BBinOp(..), RBinOp(..), AExpr(..), ABinOp(..), Cmd(..)) where
 
 {-
      a ::= x | n | - a | a opa a

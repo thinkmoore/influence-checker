@@ -1,4 +1,4 @@
-module Parse (parseString, parseFile)  where
+module Imp.Parse (parseString, parseFile)  where
 
 import System.IO
 import Control.Monad
@@ -7,7 +7,7 @@ import Text.ParserCombinators.Parsec.Expr
 import Text.ParserCombinators.Parsec.Language
 import qualified Text.ParserCombinators.Parsec.Token as Token
 
-import AST
+import Imp.AST
 
 languageDef =
   emptyDef { Token.commentStart    = "{-"
